@@ -1,0 +1,275 @@
+html {overflow-x: hidden !important;}
+
+
+/************************************************************************************
+smaller than 1480 (the default size of the website)
+*************************************************************************************/
+
+@media screen and (max-width: 1480px) {
+	
+}
+
+/************************************************************************************
+smaller than 1366
+*************************************************************************************/
+
+@media screen and (max-width: 1366px) {
+	
+}
+
+/************************************************************************************
+smaller than 1280
+*************************************************************************************/
+
+@media screen and (max-width: 1280px) {
+	.wrapper{
+        width: 1160px;
+    }
+    .project-lists .project-details{
+        width: 370px;
+    }
+    .project-lists .project-details .image{
+        width: 300px;
+    }
+	
+}
+
+/************************************************************************************
+smaller than 1170
+*************************************************************************************/
+
+@media screen and (max-width: 1171px) {
+    .wrapper{
+        width: 1060px !important;
+    }
+    .project-lists{
+        gap: 25px;
+        flex-direction: column;
+    }
+    .project-lists .project-details{
+        width: 340px !important;
+    }
+    .project-lists .project-details .image{
+        width: 250px;
+        height: 220px;
+    }
+    .hero-image-container{
+        width: 400px;
+        height: 400px;
+    }
+    .about-container{
+        flex-direction: column;
+        align-items: center;
+        gap: 40px;
+    }
+    .contact-container{
+        flex-direction: column;
+        align-items: center;
+        gap: 30px;
+    }
+    .contact-links{
+        align-items: center;
+        text-align: center;
+        gap: 30px;
+    }
+    .contact-form{
+        text-align: center;
+    }
+}
+
+
+/************************************************************************************
+smaller than 1024
+*************************************************************************************/
+
+@media screen and (max-width: 1024px) {
+.wrapper{
+    width: 942px !important;
+}
+}
+
+
+/************************************************************************************
+smaller than 980
+*************************************************************************************/
+
+@media screen and (max-width: 980px) {
+
+     
+    
+
+}
+
+
+/************************************************************************************
+smaller than 768
+*************************************************************************************/
+
+@media screen and (max-width: 768px) {
+    .wrapper{
+        width: 95% !important;
+    }
+
+    .navlinks{
+        display: none !important;   
+    }
+    .menulinks{
+        display: flex;
+    }
+
+    .ham-menu{
+        display: flex !important;
+        gap: 10px;
+        align-items: center;
+    }
+      .hero-image-container{
+        width: 300px;
+        height: 300px;
+      }
+      .hero-detail-section span p strong{
+        font-size: 24pt;
+      }
+      .hero-detail-section .hero-dtl-btn{
+        gap: 10px;
+      }
+.hero-detail-section .hero-dtl-btn .abt-btn button{
+    font-size: 10pt;
+    width: 140px;
+}
+.about-details{
+    width: 690px;
+}
+.contact-form{
+    width: 500px;
+}
+.project-lists{
+    gap: 30px;
+}
+
+}
+
+/************************************************************************************
+smaller than 680
+*************************************************************************************/
+
+@media screen and (max-width: 680px) {
+    .wrapper{
+        width: 98% !important;
+    }
+    .hero-container{
+        flex-direction: column;
+        margin: 50px auto;
+    }
+    .about-details{
+        width: 90%;
+    }
+    .about-image-container{
+        width: 370px;
+        height: 420px;
+    }
+    
+}
+
+@media screen and (max-width: 640px) {
+
+      
+}
+
+
+
+/************************************************************************************
+smaller than 480
+*************************************************************************************/
+
+@media screen and (max-width: 480px) {
+    .wrapper{
+        width: 100% !important;
+    }
+    header{
+        height: 90px;
+        top: -10px;
+        padding: 0;
+    }
+    .hero-container{
+        gap: 20px;
+        justify-content: center;
+        align-items: center;
+    }
+    .service-container,.contact-container{
+        padding: 0px;
+    }
+
+    .about-image-container{
+        width: 320px;
+    }
+    .about-details .a-skills{
+        gap: 10px;
+    }
+    .a-skills p{
+        font-size: 13pt;
+    }
+    .contact-form{
+        width: 348px;
+    }
+    .contact-heading h2{
+        font-size: 20pt;
+    }
+    .contact-heading p{
+        font-size: 10pt;
+    }
+    .contact-form .inp input{
+        padding: 8px 10px;
+        font-size: 10pt;
+    }
+    .contact-form textarea{
+        font-size: 10pt;
+        padding: 8px;
+    }
+    .contact-form .sbt-btn button{
+        width: 120px;
+        font-size: 12pt;
+        padding: 8px 16px;
+    }
+    footer .span p{
+        font-size: 8pt;
+    }
+    footer .span p strong{
+        font-size: 8pt;
+    }
+    h1{
+        font-size: 26pt !important;
+    }
+    .service-container .s-section{
+        width: 300px;
+        padding: 15px;
+    }
+    .w-section h2{
+        font-size: 14pt;
+    }
+    .faq-container{
+        padding: 24px;
+    }
+    .faq-container h2{
+        font-size: 14pt;
+    }
+    .faq-contents .faq-topic h6{
+        font-size: 12pt;
+    }
+}
+
+/************************************************************************************
+smaller than 380
+*************************************************************************************/
+@media screen and (max-width: 380px) {
+	
+
+}
+
+@media screen and (max-width: 360px) {
+	
+	
+}
+
+@media screen and (max-width: 320px) {
+
+}
