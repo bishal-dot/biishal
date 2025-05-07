@@ -2,7 +2,6 @@
 
 export default defineNuxtConfig({
   ssr: false,
-  buildDir: 'dist',
   app: {
     baseURL: '/',
     head:({
