@@ -34,6 +34,10 @@ import { ref } from 'vue';
         {
             name: 'Mysql',
             percentage: 65
+        },
+        {
+            name: 'Android Studio',
+            percentage: 55
         }
         
     ]);

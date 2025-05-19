@@ -41,6 +41,12 @@
       img:'/images/api.png',
       title: 'API Integration (Axios + 3rd Party Services)',
       description: 'Using Axios to connect frontend apps with REST APIs, integrate services like EmailJS (for contact forms), CRMs, or any external data source.'
-    }
+    },
+   {   
+      id: 5,
+      img: '/images/mobileapp.png',
+      title: 'Mobile application (Android Studio)',
+      description: 'I offer native Android app development using Java and Android Studio. Whether you need a simple utility app or a complete mobile solution, I create apps that are fast, responsive, and user-friendly.' 
+    },
   ])
 </script>
