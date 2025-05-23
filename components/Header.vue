@@ -1,7 +1,9 @@
 <script setup>
 
     import { ref } from 'vue';
+    import { useRoute } from 'vue-router';
 
+    const route = useRoute();
     const isDarkMode = ref(false);
     
     let ShowModel = ref(false);
@@ -22,21 +24,23 @@
         ShowModel.value = false;
     }
 
+    const isActive = (hash) => {
+        return route.hash === hash
+        }
+
 </script>
 <template>
     <header>
         <nav class="wrapper">
             <div class="logo">
-            <NuxtLink to="/#home">
-                    <img src="/images/logo.png" alt="logo">
-            </NuxtLink>
+            <NuxtLink to="/#home" class="name-logo">Bishal</NuxtLink>
             </div>
             <div class="navlinks">
-                <NuxtLink to="/#home">Home</NuxtLink>
-                <NuxtLink to="/#about">About</NuxtLink>
-                <NuxtLink to="/#services">Services</NuxtLink>
-                <NuxtLink to="/#projects">Projects</NuxtLink>
-                <NuxtLink to="/#contact">Contact</NuxtLink>
+                <NuxtLink to="/#home" :class="{ 'active-nav': isActive('#home') }">Home</NuxtLink>
+                <NuxtLink to="/#about" :class="{ 'active-nav': isActive('#about') }">About</NuxtLink>
+                <NuxtLink to="/#services" :class="{ 'active-nav': isActive('#services') }">Services</NuxtLink>
+                <NuxtLink to="/#projects"  :class="{ 'active-nav': isActive('#projects') }">Projects</NuxtLink>
+                <NuxtLink to="/#contact"  :class="{ 'active-nav': isActive('#contact') }">Contact</NuxtLink>
                 <div class="mode-action">
                     <img v-if="!isDarkMode" src="./../assets/images/dark.svg"  alt="dark" @click="theme">
                     <img v-else src="./../assets/images/light.svg" alt="light" @click="theme">

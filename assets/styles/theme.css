@@ -55,7 +55,27 @@ header nav a:hover::after{
     transform: scaleX(1);
     background-color: var(--primary);
 }
-header nav .logo {
+
+.name-logo {
+  font-size: 24pt;
+  font-weight: bold;
+  background: linear-gradient(70deg, #FF4081, #00D4FF);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  cursor: pointer;
+  text-decoration: none;
+}
+
+.logo .name-logo:hover {
+  color: inherit;
+  transform: none;
+}
+.logo .name-logo::after {
+  content: none !important;
+}
+
+
+/* header nav .logo {
     width: 140px;
     height: 80px;
     overflow: hidden;
@@ -65,12 +85,13 @@ header nav .logo img{
     height: 100%;
     object-fit: cover;
     cursor: pointer;
-}
+} */
 header nav .ham-menu{
     display: none;
     position: relative;
 
 }
+
 .menulinks{
     width: 50%;
     display: none;
